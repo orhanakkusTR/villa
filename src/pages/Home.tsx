@@ -38,7 +38,8 @@ function HeroSection() {
           className="mx-auto h-28 sm:h-40 md:h-56 w-auto mb-6 md:mb-8 animate-fade-in"
         />
         <h1 className="font-display text-2xl sm:text-3xl md:text-5xl text-villa-cream mb-6 leading-tight">
-          Mat, gemenskap &{' '}
+          Mat, gemenskap &
+          <br className="sm:hidden" />{' '}
           <span className="text-villa-gold">glädje vid vattnet!</span>
         </h1>
         <p className="text-villa-cream/70 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
