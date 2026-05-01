@@ -37,8 +37,8 @@ function HeroSection() {
           alt="Villa Skeppsbron"
           className="mx-auto h-40 md:h-56 w-auto mb-8 animate-fade-in"
         />
-        <h1 className="font-display text-3xl md:text-5xl text-villa-cream mb-6 leading-tight max-w-3xl mx-auto">
-          Mat, gemenskap &<br className="md:hidden" /> <span className="text-villa-gold">glädje vid vattet!</span>
+        <h1 className="font-display text-3xl md:text-5xl text-villa-cream mb-6 leading-tight whitespace-nowrap">
+          Mat, gemenskap & <span className="text-villa-gold">glädje vid vattnet!</span>
         </h1>
         <p className="text-villa-cream/70 text-base md:text-lg max-w-5xl mx-auto mb-10 leading-relaxed">
           Välkommen till Villa Skeppsbron – där svenska klassiker möter Medelhavets smaker.
