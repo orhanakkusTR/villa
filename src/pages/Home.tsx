@@ -31,21 +31,21 @@ function HeroSection() {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-villa-darker/80 via-villa-darker/60 to-villa-darker" />
 
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto pt-20">
+      <div className="relative z-10 text-center px-6 max-w-3xl mx-auto pt-20 w-full">
         <img
           src="/villa-logo.png"
           alt="Villa Skeppsbron"
-          className="mx-auto h-40 md:h-56 w-auto mb-8 animate-fade-in"
+          className="mx-auto h-28 sm:h-40 md:h-56 w-auto mb-6 md:mb-8 animate-fade-in"
         />
-        <h1 className="font-display text-3xl md:text-5xl text-villa-cream mb-6 leading-tight whitespace-nowrap">
-          Mat, gemenskap & <span className="text-villa-gold">glädje vid vattnet!</span>
+        <h1 className="font-display text-2xl sm:text-3xl md:text-5xl text-villa-cream mb-6 leading-tight">
+          Mat, gemenskap &{' '}
+          <span className="text-villa-gold">glädje vid vattnet!</span>
         </h1>
-        <p className="text-villa-cream/70 text-base md:text-lg max-w-5xl mx-auto mb-10 leading-relaxed">
+        <p className="text-villa-cream/70 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
           Välkommen till Villa Skeppsbron – där svenska klassiker möter Medelhavets smaker.
           Njut av allt från hantverkspizza och krämig pasta till färsk fisk, skaldjur och utvalda
           à la carte-rätter. Oavsett om ni kommer som familj, vänner eller kollegor erbjuder vi
-          en varm atmosfär och en meny som rymmer något för alla åldrar. Slå dig ner och låt oss
-          bjuda på en smakresa som avslutas med våra ljuvliga desserter.
+          en varm atmosfär och en meny som rymmer något för alla åldrar.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
